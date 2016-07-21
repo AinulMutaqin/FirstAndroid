@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ppsi.fasilkom.com.kandros">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_kandros2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.BerandaActivity" />
+        <activity android:name=".view.InputFormActivity" />
+        <activity
+            android:name=".view.StatusActivity"
+            android:label="@string/title_status" />
+        <activity
+            android:name=".view.BookingActivity"
+            android:label="@string/title_booking" />
+        <activity
+            android:name=".view.MenuActivity"
+            android:label="@string/title_activity_menu" />
+        <activity android:name=".view.BerandaAdminActivity" />
+        <activity android:name=".view.BookingAdminActivity" />
+        <activity android:name=".view.KendaraanAdminActivity" />
+        <activity android:name=".view.LaporanBookingAdminActivity"></activity>
+    </application>
+
+</manifest>
